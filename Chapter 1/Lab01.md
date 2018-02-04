@@ -185,3 +185,42 @@ echo date ("Y, ....");
  
 Reference-table for date time
 https://github.com/ChesterChin92/PHP_MySQL_Community/blob/master/Chapter%201/PHP_datetime_reference_table.PNG
+
+For the following tasks use the date() function and the table above as a reference to help you to write PHP in a new PHP script (remembering to use the basic XHTML core tags such as DOCTYPE etc as a basis – the DOCTYPE should be strict)  that will: 
+
+
+Display the current day of the week, e.g. Monday 
+
+
+Display the current day of the month and the year e.g. 2 February 2009 
+
+
+Display the current time in the following format 11:00 AM 
+
+
+Using only a single date() function display the time, the current day of the week, the day of the month, the full name of the month and the year. 
+
+#### Exercise 6: Comments in PHP 
+
+In PHP // is used to make a single-line comment, /* and */ to make a large comment block. 
+
+```php
+<?php 
+
+    //This is a comment 
+
+    /* 
+    This is 
+    a comment 
+    block 
+    */ 
+
+?> 
+```
+
+ 
+
+Modify the PHP scripts you have just written to incorporate both single and block comments as appropriate. 
+
+
+Thats it! You have completed the first lab!
