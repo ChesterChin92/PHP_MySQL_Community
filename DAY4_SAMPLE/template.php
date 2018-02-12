@@ -9,6 +9,25 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+    <ul class="nav navbar-nav pull-right">
+      <li class="active"><a href="#">Login</a></li>
+     
+    </ul>
+    
+  </div>
+</nav>
   
 <div class="container-fluid">
     <h1>Sample Paragraph</h1>
@@ -73,6 +92,6 @@
 
 </body>
 <script>
-    console.log("Page Loaded.");
+    alert("Hello its almost time to go back home. Please bear with me. ");
 </script>
 </html>

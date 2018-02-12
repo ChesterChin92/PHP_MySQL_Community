@@ -1,14 +1,14 @@
 <?php
 
+var_dump($_GET);
+
 require_once('dbcon.php');
 
-// Create a random NoBarang 
-$NoBarang = rand(0, 999);
+$NoBarang = $_GET['id'];
 
-$sql = "INSERT INTO `barang` (`NoBarang`, `Nama`, `Kuantiti`, `HargaSeunit`) VALUES ('A88', 'Kopi', '20', '3')";
+$sql = "SELECT * FROM barang WHERE NoBarang = '$NoBarang'";
 
 $result = $con->query($sql);
-
 
 if ($result->num_rows > 0) {
     // output data of each row
@@ -17,32 +17,12 @@ if ($result->num_rows > 0) {
        echo "<b>".$row['Nama'] . "</b>" ;
        echo "<b>".$row['Kuantiti'] . "</b>" ;
        echo "<b>".$row['HargaSeunit'] . "</b><br>" ;
+      
     }
 } else {
     echo "0 results";
 }
-
-
-
-
 $con->close();
-
-
-
-$con->close();
-
-
-?>
-
-
-
-<?php
-
-// if ($con->query($sql) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $con->error;
-// }
 
 
 ?>
