@@ -27,7 +27,7 @@ $con->close();
 
 <form action="formEdit.php" method="get">
     <label>NoBarang</label>
-    <input disable="true" name="NoBarang" type="text" <?php echo "value='$NoBarang'"; ?> ></input>
+    <input disabled name="NoBarang" type="text" <?php echo "value='$NoBarang'"; ?> ></input>
     <br>
 
     <label>Nama</label>

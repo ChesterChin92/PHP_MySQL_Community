@@ -23,7 +23,7 @@ if ($con->query($sqlEdit) === TRUE){
 
 }else{
     echo "Record Update fail. ";
-    echo "Error" . $sqlEdit . "Error Details : " . $con->error();
+    echo "Error" . $sqlEdit . "Error Details : " . $con->error;
     
 }
 echo "<br><a href='index.php'>Click here to go back</a>";
