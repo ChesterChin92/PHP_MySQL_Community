@@ -1,0 +1,32 @@
+Q. It is mandatory for primary key to be auto increment? 
+
+Nope.
+
+Q. Cant we not make is as non auto increment and use varchar?
+
+INT can be auto increment, You cant autoincremebt varchar.
+(DB dont know how to increase from A-Z in increment manner)
+
+
+Q. Will you touch jQuery today??
+
+Originally no, but since you ask then I will squeeze in an intro. 
+(More on jquery after class, in github
+
+
+Q. I would love to know if there is any other way to deliver and teach normalization dtbase in a simple way.
+
+Q. Is it important to teach our students to named 
+everything in the form of camel case?? 
+including the name of db or others...
+
+According to your syllabus, no. 
+But for common practice as developer yes we have a standard way of naming things.
+
+
+
+Q. phpMyadmin 
+How declaration of primary key and foreign key
+How to link between two table or more
+
+Covered in class.  :-)

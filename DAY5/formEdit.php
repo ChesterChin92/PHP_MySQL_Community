@@ -37,6 +37,8 @@ echo "<br><a href='index.php'>Click here to go back</a>";
 
 
 
+
+
 // $sqlEdit = "UPDATE `barang` SET 
 // `Nama` = '$Nama', 
 // `Kuantiti` = '$Kuantiti', 
