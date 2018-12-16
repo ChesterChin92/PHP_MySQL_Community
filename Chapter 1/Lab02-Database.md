@@ -21,31 +21,31 @@ we’ll simply fire a SELECT query at the database
 
 $host = "localhost";
 
-$user = "test";
+$user = "root";
 
-$pass = "test";
+$pass = "";
 
-$db = "testdb";
+$db = "practice";
 
 // open connection
 
-$connection = mysql_connect($host, $user, $pass) or die ("Unable to connect!");
+$connection = mysqli_connect($host, $user, $pass) or die ("Unable to connect!");
 
 // select database
 
-mysql_select_db($db) or die ("Unable to select database!");
+mysqli_select_db($connection,$db) or die ("Unable to select database!");
 
 // create query
 
-$query = "SELECT * FROM symbols";
+$query = "SELECT * FROM student";
 
 // execute query
 
-$result = mysql_query($query) or die ("Error in query: $query. ".mysql_error());
+$result = mysqli_query($connection,$query) or die ("Error in query: $query. ");
 
 // see if any rows were returned
 
-if (mysql_num_rows($result) > 0) {
+if (mysqli_num_rows($result) > 0) {
 
     // yes
 
@@ -53,7 +53,7 @@ if (mysql_num_rows($result) > 0) {
 
     echo "<table cellpadding=10 border=1>";
 
-    while($row = mysql_fetch_row($result)) {
+    while($row = mysqli_fetch_row($result)) {
 
         echo "<tr>";
 
