@@ -1,0 +1,20 @@
+Login Form
+
+Firstname
+Lastname
+Email 
+Password
+
+Check for 
+Firstname, Lastname, Email and Password. 
+
+Each different test that fail please provide the reason. 
+EG. Firstname missing but the rest is ok. 
+EG. Lastname missing but the rest is ok.
+EG. Incorrect Email or Password
+EG. Email or password is empty. 
+
+ALL POST. 4.10PM.
+Filename : Login_form_practice.html / login_process_practice.php
+Use var_dump first. Remember name='firstname'...etc. 
+

@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+        <style>
+        .black{
+            background-color : black;
+            color : white;
+        }
+        .white{
+            background-color : white;
+            color : black;
+        }
+        
+        </style>
+    </head>
+    <body>
+    
+
+<?php
+//Use PHP echo the table.
+
+
+echo "<table border='1'>";
+for ($x=0; $x < 5; $x++) { 
+  
+    $answer = ($x%2);
+
+    if($answer==0){
+        $theCSSclass = "black";
+    }
+    else{
+        $theCSSclass = "white";
+    }
+
+    echo "<tr class='$theCSSclass'>
+            <td>$answer</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+           </tr>";
+   
+}
+echo "</table>";
+
+?>
+
+</body>
+</html>

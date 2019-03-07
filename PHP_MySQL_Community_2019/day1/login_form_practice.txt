@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <form action="login_process_practice.php" method="post">
+            Firstname : <br>
+            <input type="text" name="firstname"> <br>
+            Lastname : <br>
+            <input type="text" name="lastname"> <br>
+            Email : <br>
+            <input type="text" name="email"> <br>
+            Password : <br>
+            <input type="password" name="password"> <br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
+
